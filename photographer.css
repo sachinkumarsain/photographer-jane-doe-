@@ -1,100 +1,172 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-.header{
+
+.header {
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
-    
+
 }
-.header1{
+
+.header1 {
     width: 44%;
     height: 100vh;
-    
-    
+
+
 }
-.header1 img{
+
+.header1 img {
     width: 44%;
     height: 100vh;
     position: fixed;
 
 }
 
-.header2{
+.header2 {
     width: 54%;
     /* padding-left: 100px; */
-    text-align: center;
+
     font-size: 20px;
     margin: 0px auto;
-    
+
 }
-.menu{
+
+.menu {
     position: fixed;
-    top:20px;
+    top: 20px;
     right: 20px;
-    
+
 }
-.menu a{
+
+.menu a {
     text-decoration: none;
     color: black;
     font-size: 35px;
 }
-.type{
+
+.type {
     height: 700px;
     font-weight: 300;
+    margin: 0px auto;
+    width: 60%;
     align-items: center;
-    padding-top:190px ;
+    padding-top: 250px;
+    flex-wrap: wrap;
+
 }
-.type h1{
-   font-size:100px; 
+
+.type h1 {
+    font-size: 100px;
 }
-.type h5{
+
+.type h5 {
     padding-bottom: 30px;
     font-size: 25px;
     font-weight: 100;
 }
-.type a{
-    text-decoration:none ;
+
+.type a {
+    text-decoration: none;
     padding: 13px 25px;
     background-color: gainsboro;
     color: black;
     border-radius: 4px;
 }
-.type a:hover{
+
+.type a:hover {
     background-color: gray;
     color: white;
 }
-.image{
+
+.image {
     width: 810px;
     display: flex;
 }
-.image img{
+
+.image img {
     width: 395px;
     margin: 3px 5px;
 }
-.dob{
+
+.dob {
     display: flex;
-    padding-bottom:10px;
+    padding-bottom: 10px;
     font-weight: 200;
 }
-.keep{
-    height:776px ;
+
+.keep {
+    height: 776px;
 }
-.section h1{
+
+.section h1 {
     display: flex;
     font-weight: 200;
     height: 100px;
     align-items: center;
 
 }
-.section p{
+
+.section p {
     font-weight: 150;
 }
-.section{
+
+.section {
     padding-top: 50px;
     height: 350px;
     text-align: justify;
+
+}
+
+.artical {
+    height: 400px;
+    font-size: 25px;
+    padding-top: 30px;
+
+}
+
+.artical h1 {
+    font-weight: 400;
+}
+
+.testi{
+    font-weight: 100;
+    padding:10px 0px;
+}
+.one,.two,.three {
+    height: 47px;
+    background-color: rgb(234, 228, 228);
+    align-items: center;
+    display: flex;
+    border-radius: 3px;
+    margin-top: 10px;
     
+    
+    
+}
+
+.one p{
+    
+    width: 95%;
+    
+}
+.two p{
+    width: 85%;
+}
+.three p{
+    width: 80%;
+}
+.same{
+    padding: 15px 0px;
+}
+.one p,.two p,.three p{
+    background-color:rgb(65, 62, 62) ;
+    height: 100%;
+    color: white;
+    font-size: 30px;
+
+    text-align: center;
+    padding-top: 7px;
 }
